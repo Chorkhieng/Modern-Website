@@ -4,11 +4,12 @@ html(lang="en")
         meta(charset="UTF-8")
         title Home Page
         include css_link
+        script(src="/js/main.js")
     body
         include nav_bar
         h1 Welcome to My Website 
-        h2 Here you can see interesting things about Nature
-        img(src="/images/index.jpeg" alt="nature")
-        h2 Did you enjoy picture above?
-    footer 
-        p &copy; Chork 2023 All right reserved. 
+        h2(id="show-date-time")
+        h2 Here you can see interesting things about me
+        img(src="/images/me.jpeg" alt="nature")
+        h2 Want to know more? Navigate through other contents above! 
+    include footer_page
