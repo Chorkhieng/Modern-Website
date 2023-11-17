@@ -47,7 +47,7 @@ p {
 img {
     border: 1em;
     border-radius: 2em;
-    width: calc(75% - 1em);
+    width: calc(50% - 2em);
     border-style: double;
     border-color: blue ;
 }
@@ -82,5 +82,25 @@ img {
 }
 
 footer {
+    margin-top: 100px;
     margin-bottom: 50px;
+}
+
+ul {
+    background-color: rgb(64, 75, 26);
+    text-align: left;
+    border: 12px;
+    padding: 10px;
+}
+
+ul li:hover{
+    font-size: larger;
+}
+
+.resume {
+    background-color: rgb(96, 93, 185);
+    color: rgb(48, 28, 85);
+    text-align: left;
+    border: 12px;
+    padding: 10px;
 }

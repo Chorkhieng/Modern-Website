@@ -27,6 +27,11 @@ app.get("/projects", (req, res)=>{
     res.render("projects.pug");
 })
 
+// get project page
+app.get("/courses", (req, res)=>{
+    res.render("courses.pug");
+})
+
 // get resume page
 app.get("/resume", (req, res)=>{
     res.render("resume.pug");
@@ -37,6 +42,11 @@ app.get("/images/index.jpeg", (req, res)=>{
     res.send("me.jpeg");
 })
 
+// get image for error page
+app.get("/images/Sad-pug.jpg", (req, res)=>{
+    res.send("Sad-pug.jpg");
+})
+
 // get css style for normal mode
 app.get("/css/main.css", (req, res)=>{
     res.send("main.css");
@@ -45,6 +55,11 @@ app.get("/css/main.css", (req, res)=>{
 // get css style for dark mode
 app.get("/css/main.dark.css", (req, res)=>{
     res.send("main.dark.css");
+})
+
+// if the path is not found
+app.use((req, res)=>{
+    res.status(404).render("not_found.pug");
 })
 
 // listen to port 8000

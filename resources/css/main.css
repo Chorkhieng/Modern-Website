@@ -46,7 +46,7 @@ p {
 img {
     border: 1em;
     border-radius: 2em;
-    width: calc(75% - 1em);
+    width: calc(50% - 2em);
     border-style: double;
 }
 
@@ -80,4 +80,23 @@ img {
 
 footer {
     margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+ul {
+    background-color: rgb(166, 173, 32);
+    text-align: left;
+    border: 12px;
+    padding: 10px;
+}
+
+ul li:hover{
+    font-size: x-large;
+}
+
+.resume {
+    background-color: rgb(51, 99, 42);
+    text-align: left;
+    border: 12px;
+    padding: 10px;
 }
