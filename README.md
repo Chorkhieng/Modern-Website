@@ -4,6 +4,12 @@
 - **ExpressJS:** Handles a variety of different HTTP demands.
 - **NodeJS:** A javascript runtime environment for running JavaScript programs and is used to build server-side applications
 
+## Clone the repository
+- To get all project files, run the following command:
+    ```
+    git clone https://github.com/Chorkhieng/Modern-Website.git
+    ```
+
 ## Requirement
 - Make sure you have `NodeJS`, `ExpressJS`, and `Pug` installed.
 
@@ -15,7 +21,7 @@
     ```
     This will run `server.js` file as server code and handle `http` protocals
 
-- On your browswer
+- On your browswer:
     ```
     localhost:8000
     ```
