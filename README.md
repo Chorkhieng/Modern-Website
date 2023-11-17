@@ -12,6 +12,7 @@
 
 ## Requirement
 Make sure you have `NodeJS`, `ExpressJS`, and `Pug` installed.
+- First, make sure you're in the project folder  
 - To install `node`, run the following command:
     ```
     npm init
