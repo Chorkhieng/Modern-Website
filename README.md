@@ -44,4 +44,5 @@ Make sure you have `NodeJS`, `ExpressJS`, and `Pug` installed.
 ![Normal Mode](screenshot/normal_mode.png)
 ### Dark Mode
 ![Normal Mode](screenshot/dark_mode.png)
+
 Enjoy 🙂🙂🙂
