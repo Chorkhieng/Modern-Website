@@ -1,0 +1,51 @@
+/* Cascade Styles Sheet*/
+/* import google font style */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body {
+    background-color: rgb(67, 60, 21);
+    text-decoration: solid;
+    text-align: center;
+    margin: 0;
+}
+
+.topNav {
+    background-color: rgb(130, 130, 191);
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+div a {
+    background-color: rgb(180, 172, 187);
+    color: black;
+    font-weight: 300;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em;
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    margin-left: 0;
+    border: 1em;
+    padding: 0.5em;
+    border-color: black;
+}
+div a:hover {
+    background-color: darkblue;
+    color: rgb(177, 177, 196);
+    font-size: larger;
+}
+p {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border: 1em;
+    border-radius: 2em;
+    width: calc(75% - 1em);
+    border-style: double;
+}

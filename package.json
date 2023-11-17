@@ -1,0 +1,15 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "- **Pug:** Renders into `HTML` with cleaner and less complexities - **ExpressJS:** Handles a variety of different HTTP demands. - **NodeJS:** A javascript runtime environment for running JavaScript programs and is used to build server-side applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
